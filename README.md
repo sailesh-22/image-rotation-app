@@ -30,7 +30,7 @@ Include screenshots of your app to showcase the UI and functionality.
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/image-rotation-app.git
-cd image-rotation-app
+cd image_rotation_app
 ```
 
 ### 2. Backend Setup
@@ -53,7 +53,7 @@ cd image-rotation-app
 
 1. Navigate to the frontend folder:
    ```bash
-   cd image-rotation-app
+   cd image_rotation_app
    ```
 2. Install frontend dependencies:
    ```bash
