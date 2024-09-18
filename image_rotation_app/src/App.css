@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.dropzone {
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px dashed #cccccc;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+  & p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  & input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+    border: 2px solid #007bff;  
+    border-radius: 5px;
+    background-color: #ffffff;  
+    color: #333;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+}
+
+.dragging {
+  border-color: #00bfff;
+  background-color: #e6f7ff;
+}
+
+.images{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  & .right{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+a button:hover {
+  background-color: #218838;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.rotation-input {
+
+  align-items: center;
+  gap: 10px;
+}
+
+.rotation-input input[type="range"] {
+  -webkit-appearance: none;
+  width: 80%;
+  height: 8px;
+  background: #ddd;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Image styling */
+img {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+
+
+
